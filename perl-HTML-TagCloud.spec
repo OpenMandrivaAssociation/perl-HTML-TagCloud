@@ -1,9 +1,9 @@
 %define upstream_name    HTML-TagCloud
-%define upstream_version 0.36
+%define upstream_version 0.37
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
-Release:    %mkrel 2
+Release:    %mkrel 1
 
 Summary:    Generate An HTML Tag Cloud
 License:    GPL+ or Artistic
