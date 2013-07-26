@@ -1,15 +1,15 @@
 %define upstream_name    HTML-TagCloud
-%define upstream_version 0.37
+%define upstream_version 0.38
 
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version %{upstream_version}
-Release:	2
+Version:	%perl_convert_version 0.38
+Release:	1
 
 Summary:	Generate An HTML Tag Cloud
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/HTML/%{upstream_name}-%{upstream_version}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/HTML/HTML-TagCloud-0.38.tar.gz
 
 BuildRequires:	perl-devel
 BuildRequires:	perl(Test::More)
@@ -69,3 +69,4 @@ perl Makefile.PL INSTALLDIRS=vendor
 
 * Sun Nov 29 2009 cpan2dist 0.34-1mdv
 - initial mdv release, generated with cpan2dist
+
