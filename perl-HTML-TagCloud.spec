@@ -3,7 +3,7 @@
 
 Name:		perl-%{upstream_name}
 Version:	0.38
-Release:	3
+Release:	4
 
 Summary:	Generate An HTML Tag Cloud
 License:	GPL+ or Artistic
